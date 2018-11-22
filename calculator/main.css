@@ -1,0 +1,139 @@
+/* ALL */
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.65rem;
+}
+
+html {
+    background-color: black;
+}
+
+/* CONTAINER */
+.container {
+    width: 500px;
+    height: 830px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    margin: -435px 0 0 -280px;
+    padding: 30px;
+}
+
+.row {
+    height: 15.5%;
+    padding: 2% 0;
+}
+
+/* SCREEN */
+.screen {
+    position: relative;
+    height: 20%;
+    text-align: right
+}
+
+.screen span {
+    color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    font-size: 2em;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+/* BUTTONS */
+.btns {
+    height: 80%;
+}
+
+.btn {
+    float: left;
+    width: 20%;
+    height: 100%;
+    margin: 0 2.5%;
+    border-radius: 999px;
+    text-align: center;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.05s ease;
+}
+
+.btn span {
+    margin: auto;
+    text-align: center;
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* IE10+/Edge */
+    user-select: none;
+    /* Standard */
+}
+
+/* BUTTONS CUSTOMIZATIONS */
+.zero {
+    width: 45%;
+    border-radius: 999px;
+}
+
+/* orange */
+.orange {
+    color: white;
+    background-color: #FF9600;
+}
+
+.oranged {
+    color: #FF9600;
+    background-color: white;
+}
+
+/* grey */
+.grey {
+    color: white;
+    background-color: #333333;
+}
+
+.greyed {
+    color: white;
+    background-color: #747474;
+}
+
+/* white */
+.white {
+    color: black;
+    background-color: #A5A5A5;
+}
+
+.whited {
+    color: black;
+    background-color: #d6d6d6;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-height: 800px) {
+    .container {
+        width: 400px;
+        height: 650px;
+        margin: -355px 0 0 -230px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 320px;
+        height: 530px;
+        margin: -295px 0 0 -190px;
+    }
+}
